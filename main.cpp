@@ -350,6 +350,7 @@ Pinetime::Controllers::DateTime dateTimeController {settingsController};
 Pinetime::Drivers::Watchdog watchdog;
 Pinetime::Controllers::NotificationManager notificationManager;
 Pinetime::Controllers::MotionController motionController;
+Pinetime::SleepTracker::VanHeesSleepTracker sleepTracker;
 #if defined(INFINITIME_TIMERCONTROLLER)
 Pinetime::Controllers::TimerController timerController;
 #endif
@@ -393,6 +394,7 @@ Pinetime::System::SystemTask systemTask(spi,
                                         notificationManager,
                                         heartRateSensor,
                                         motionController,
+                                        sleepTracker,
                                         motionSensor,
                                         settingsController,
                                         heartRateController,

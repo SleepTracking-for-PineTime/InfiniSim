@@ -198,6 +198,8 @@ target_sources(infinisim PUBLIC
   ${InfiniTime_DIR}/src/components/fs/FS.cpp
   ${InfiniTime_DIR}/src/components/motor/MotorController.h
   ${InfiniTime_DIR}/src/components/motor/MotorController.cpp
+  ${InfiniTime_DIR}/src/components/sleep/SleepTracker.h
+  ${InfiniTime_DIR}/src/components/sleep/SleepTracker.cpp
   ${InfiniTime_DIR}/src/drivers/Hrs3300.h
   ${InfiniTime_DIR}/src/drivers/Hrs3300.cpp
   ${InfiniTime_DIR}/src/drivers/PinMap.h
